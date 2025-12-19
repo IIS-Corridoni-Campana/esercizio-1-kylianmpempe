@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+#scene {
+  text-align: center;
+  width: 80%;
+  max-width: 800px;
+}
+
+#scene-text {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the scene */
+#scene-day {
+  background-image: url('giorno.png');
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+}
+
+#scene-night {
+  background-image: url('notte.png');
+  background-size: cover;
+  height: 60vh;
+  background-position: center;
+}
+
+#buttons {
+  margin-top: 20px;
+}
